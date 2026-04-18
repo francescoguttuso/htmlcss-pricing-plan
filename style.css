@@ -23,6 +23,11 @@ body {
     line-height: 1.5;
     text-align: center;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 button {
@@ -44,14 +49,16 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: stretch;
+   
 }
 
-.flex-columns .box .card {
-    flex: 0 0 calc((100% - 20px) / 3);
+.flex-columns .box {
+    flex: 0 0 calc((100% - 40px) / 3);
 }
 
 .flex-columns .box.header {
-    flex-grow: 1;
+    flex-basis: calc((100% - 20px) / 2);
 }
 
 ul {
@@ -72,5 +79,5 @@ ul {
 }
 
 .debug {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
