@@ -19,6 +19,8 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* box */
@@ -46,20 +48,34 @@ body {
     text-align: left;
 }
 
+.container.flex-columns p {
+    font-size: 11px;
+}
+
 .container.flex-columns .box:last-child {
     text-align: right;
 }
 
+.container.flex-columns2 .box h2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
 button {
-    min-width: 202px;
-    min-height: 56px;
-    border-radius: 10px;
+    width: 215px;
+    height: 58px;
+    border-radius: 18px;
+    color: rgb(101, 0, 255);
+    margin: 0 auto;
+    border: none;
+
 }
 
 /* Color */
 
 .violet {
     background-color: rgb(101, 0, 255);
+    color: white;
 
 }
 
@@ -71,6 +87,7 @@ button {
     gap: 20px;
     align-items: stretch;
 
+
 }
 
 .flex-columns2 .box {
@@ -79,17 +96,52 @@ button {
 
 .flex-columns {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .flex-columns .box {
     flex-direction: row;
+    flex-grow: 1;
 }
 
+.container.flex-columns2 .box {
+    font-size: 14px;
+    text-align: center;
+    line-height: 3.5;
+}
+
+
+.violet span {
+    color: rgb(0, 0, 0);
+}
+
+.violet p {
+    color: rgb(255, 255, 255);
+}
+
+.violet .category {
+    color: rgb(255, 255, 255);
+}
 
 ul {
     list-style-type: none;
 }
+
+strong {
+    font-size: 46px;
+}
+
+.special-offers {
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.container.flex-columns2 .box span {
+    background-color: rgb(186, 184, 184);
+    border-radius: 10px;
+    padding: 4px;
+}
+
 
 
 
