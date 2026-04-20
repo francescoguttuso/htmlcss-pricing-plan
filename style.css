@@ -162,7 +162,7 @@ strong {
 
 /* media query */
 
-@media (max-width: 322px) {
+@media (max-width: 401px) {
     .container.flex-columns2 {
         flex-direction: column;
     }
