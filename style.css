@@ -27,7 +27,6 @@ body {
 /* box */
 
 .box {
-
     min-width: 300px;
     padding: 5px;
     border-radius: 20px;
@@ -37,8 +36,6 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .container.flex-columns .box {
@@ -84,7 +81,6 @@ button {
     margin: 0 auto;
     border: none;
     font-weight: bold;
-
 }
 
 /* Color */
@@ -92,7 +88,6 @@ button {
 .violet {
     background-color: rgb(101, 0, 255);
     color: white;
-
 }
 
 /* flex */
@@ -102,8 +97,6 @@ button {
     flex-wrap: wrap;
     gap: 20px;
     align-items: stretch;
-
-
 }
 
 .flex-columns2 .box {
@@ -123,12 +116,10 @@ button {
 .container.flex-columns2 .box {
     font-size: 14px;
     text-align: center;
-    line-height: 1.5;
-
 }
 
-.box:last-child>* {
-    margin-top: 30px;
+.box>*:not(:first-child) {
+    margin-top: 10px;
 }
 
 
