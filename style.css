@@ -181,6 +181,19 @@ strong {
     }
 }
 
+@media (max-width: 671px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;  
+        list-style: none;
+    }
+
+li {
+        width: 50%;       
+        box-sizing: border-box;
+        padding: 5px; 
+    }
+}   
 
 
 
