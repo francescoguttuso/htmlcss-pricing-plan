@@ -43,6 +43,7 @@ body {
 
 .container.flex-columns .box {
     display: inline-block;
+    box-shadow: initial;
 }
 
 .container.flex-columns .box:first-child {
@@ -51,6 +52,7 @@ body {
 
 .container.flex-columns p {
     font-size: 11px;
+    color: #bab8b8;
 }
 
 .container.flex-columns .box:last-child {
