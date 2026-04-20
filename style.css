@@ -140,8 +140,9 @@ button {
 
 ul {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
+    padding-left: 56px;
 }
 
 strong {
