@@ -191,12 +191,18 @@ strong {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
+
     }
 
     .container.flex-columns2 .box:last-child li {
         width: 50%;
         box-sizing: border-box;
         padding: 5px;
+    }
+
+    .container.flex-columns {
+        flex-wrap: nowrap;
+
     }
 }
 
