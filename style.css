@@ -52,7 +52,7 @@ body {
 
 .container.flex-columns p {
     font-size: 11px;
-    color: #bab8b8;
+    color: #797474;
 }
 
 .container.flex-columns .box:last-child {
@@ -71,7 +71,7 @@ body {
 .container.flex-columns2 .valore {
     text-align: left;
     padding-left: 30px;
-    color: #bab8b8;
+    color: #797474;
 
 }
 
