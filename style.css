@@ -66,9 +66,10 @@ body {
     margin-bottom: -50px;
 }
 
-.container.flex-columns2 p {
+.container.flex-columns2 .valore {
     text-align: left;
     padding-left: 30px;
+    color: #bab8b8;
 
 }
 
